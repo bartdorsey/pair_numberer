@@ -1,0 +1,29 @@
+* {
+    box-sizing: border-box;
+    font-family: sans-serif;
+    font-size: 12px;
+}
+
+main {
+    display: flex;
+    justify-content: space-evenly;
+    height: 90vh;
+}
+
+textarea {
+    flex-grow: 1;
+}
+
+#results {
+    display: flex;
+    flex-direction: column;
+    flex-grow: 1;
+}
+
+.room {
+    font-weight: bold;
+}
+
+.student {
+    font-weight: normal;
+}
